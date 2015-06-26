@@ -1,0 +1,26 @@
+.results {
+  width: 100%;
+}
+
+h1 {
+  font-size: 250%;
+  font-weight: bold;
+}
+
+.title {
+  font-size: 150%;
+  font-weight: bold;
+}
+
+.row {
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+.row:nth-child(odd) {
+  background-color: #dfdfdf;
+}
+
+.row:nth-child(even) {
+  background-color: #c8c8c8;
+}

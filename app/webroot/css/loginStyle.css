@@ -1,0 +1,124 @@
+
+		a {
+			text-decoration:none;
+		}
+		h1 {
+			padding: 10px;
+			color: #000;
+			padding-left:20px;
+			height:68px;
+			line-height: 68px;
+			background-color:#fff;
+			border-bottom: 2px solid #7F7F7F;
+			margin: 0px;
+		}
+		h3 {
+			padding: 10px;
+			color: #FFF;
+		}
+		
+		.button {
+			margin:10px;
+			padding:10px;
+		 	background-color:#F00;
+		 	color: #FFF
+		}
+		.button:hover {
+		 	background-color: #DCDCDC;
+		 	color:#000
+		}
+		.bfixed {
+			position:fixed;
+			width:160px;
+			bottom:0px;
+		}
+		emptyspace {
+			padding:10px
+		}
+		#content {
+			/*background: none repeat scroll 0% 0% #FFF;
+			z-index: 3;*/
+			width: auto;
+			overflow: auto;
+			height: 100%;
+			position: relative;
+			/*padding-left:10px;*/
+		}
+		td {
+			padding: 10px;
+		}
+		
+		html, body {
+			height: 100%;
+			margin: 0;
+			min-height: 100%;
+			padding: 0;
+			background-color: #DCDCDC;
+		}
+
+		#full {
+		}
+		#header{
+			float: left;
+			width:200px;
+		}
+		table {
+			border-collapse: collapse;
+		}
+		.box {
+		  height: 250px;
+		  width: 500px;
+		  background: #222;
+		  position: absolute;
+		   
+		  /*Centering Method 2*/
+		  margin: -125px 0 0 -250px;
+		  left: 50%;
+		  top: 50%;
+		}
+		
+		/*popup part*/
+		body {
+			font-family: Microsoft JhengHei UI;
+			background: none repeat scroll 0% 0% #E7E7E7;
+		}
+
+		
+		/*}*/
+		/*table {*/
+		.table-border {
+			width:700px;
+			border: solid 2px;
+			border: 2px solid #A5A5A5;
+			box-shadow: 1px 1px 1px #7F7F7F;
+			height: 30%;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			width: 400px;
+			margin: -200px 0px 0px -200px;
+		}
+		/*}*/
+		.sign_in{}
+		
+		
+		.sign_in_bar {
+			background-color: rgb(231, 231, 231);
+		}
+		.sign_in_bottom_bar {
+			border-top: 2px solid rgb(165, 165, 165);
+		}
+		.sign_in_top_bar {
+			padding: 10px 0px 10px 10px;
+			border-bottom: 2px solid rgb(165, 165, 165);
+		}
+		
+		input {
+			box-shadow: 1px 1px 1px #7F7F7F;
+			border: 1px solid #A5A5A5;
+			height: 20px;
+			width: 200px;
+		}
+		.sign_in_title {
+		background-color: #FFF; padding: 10px 0px 10px 10px;
+	}

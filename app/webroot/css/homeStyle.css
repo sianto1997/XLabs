@@ -1,0 +1,226 @@
+/* COLORS CUSTOMSKNOWLEDGE
+#BED32F = LIGHT GREEN
+#033B5B = DARK BLUE
+#00626B = CUSTOMS GREEN
+*/
+
+/* GENERAL */
+body{
+	font-family: 'Open Sans', sans-serif;
+	background:url(http://subtlepatterns.com/patterns/crossword.png);
+	font-size: 14px;
+  margin: 0px;
+}
+.wrapper{
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.center{
+  text-align: center;
+}
+.noselect{
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.motto h2{
+  font-size: 24px;
+  color: #00626B;
+}
+
+/* COLUMNS & HIGHTPOS - ADD ONE FOR CUSTOM WIDTH OR HIGHT */
+
+.one-column{
+	float: left;
+	width: 66%;
+}
+.two-column{
+	float: left;
+	width: 30%;
+}
+.one-hightpos{
+  margin-top: 8%;
+}
+.two-hightpos{
+  margin-top: 75%;
+}
+
+/* BUTTONS */
+
+.login-button{
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: center;
+	background-color: #BED32F;
+	border-radius: 3px;
+	border-style: solid;
+	border-color: #AFC22B;
+	border-width: 1px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+  padding-left: 20px;
+  padding-right: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+  cursor: pointer;
+	-webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.login-button:hover{
+	background-color: #BED359;
+}
+
+/* HOME CONTENT */
+
+.homecontent{
+  background-color: #F5F4E9;
+  border: #eeeeee solid 1px;
+  font-size: 16px;
+  width: 70%;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+/* MODAL */
+
+.opened:before {
+  display: block;
+}
+.opened .modal-dialog {
+  -webkit-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  transform: translate(0, 0);
+  top: 20%;
+}
+.modale:before {
+  content: "";
+  display: none;
+  background: rgba(0, 0, 0, 0.6);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+}
+.modal-dialog {
+  background: #fefefe;
+  border: #333333 solid 0px;
+  border-radius: 5px;
+  margin-left: -200px;
+  text-align:center;
+  position: fixed;
+  left: 50%;
+  top: -100%;
+  z-index: 11;
+  width: 360px;
+  box-shadow:0 5px 10px rgba(0,0,0,0.3);
+  -webkit-transform: translate(0, -500%);
+  -ms-transform: translate(0, -500%);
+  transform: translate(0, -500%);
+  -webkit-transition: -webkit-transform 0.3s ease-out;
+  -moz-transition: -moz-transform 0.3s ease-out;
+  -o-transition: -o-transform 0.3s ease-out;
+  transition: transform 0.3s ease-out;
+}
+.modal-body {
+  padding: 20px;
+}
+.modal-body input{
+  width:200px;
+  padding:8px;
+  border:1px solid #ddd;
+  color:#888;
+  outline:0;
+  font-size:14px;
+  font-weight:bold
+}
+.modal-header {
+  border-bottom: #eeeeee solid 1px;
+  padding: 15px 15px;
+}
+.modal-header h2{
+	font-size: 24px;
+	color: #00626B;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.overlay{
+  background: rgba(68,68,68,0.5);
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  z-index:10;
+}
+
+/* MODAL BUTTONS */
+.modal-button{
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: center;
+	background-color: #BED32F;
+	border-radius: 3px;
+	border-style: solid;
+	border-color: #AFC22B;
+	border-width: 1px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+  cursor: pointer;
+	-webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 24px;
+}
+.modal-button:hover{
+	background-color: #BED359;
+}
+.modal-closebutton {
+  color: #aaaaaa;
+  font-size: 20px;
+  text-decoration: none;
+  padding:10px;
+  position: absolute;
+  right: 7px;
+  top: 0;
+}
+.modal-closebutton:hover {
+  color: #919191;
+}
+
+/* TEXT SELECT */
+/* CODE FOR FIREFOX = -moz- */
+
+::-moz-selection { 
+  color: white;
+  background: #033B5B;
+}
+::selection {
+  color: white;
+  background: #033B5B;
+}
+
+/* RESPONSIVE FIX */
+@media screen and (max-width: 1400px) {
+  .homecontent{
+    margin-left: 8%;
+    margin-right: 8%;
+  }
+}
