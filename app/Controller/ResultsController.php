@@ -50,7 +50,7 @@ SELECT * FROM
         {$this->_generateSearchQuery($query)}
       ) AS test
     FROM
-      `customsknowledge`.`codes` AS `Code`
+      `xlabs_users`.`codes` AS `Code`
     WHERE
       ({$this->_generateSearchQuery($query)}) > 0
   ) AS Result
@@ -88,7 +88,7 @@ SELECT * FROM
       ) AS test
     FROM
     (
-      `customsknowledge`.`codes` AS `Code`
+      `xlabs_users`.`codes` AS `Code`
       )
     WHERE
     (
@@ -122,7 +122,7 @@ SELECT * FROM
       ) AS test
     FROM
     (
-      `customsknowledge`.`chapters` AS `Chapter`
+      `xlabs_users`.`chapters` AS `Chapter`
       )
     WHERE
     (
@@ -164,8 +164,8 @@ ORDER BY Result.test DESC
     FROM
     (
 
-      `customsknowledge`.`customs_duties` AS `CD`
-      `customsknowledge`.`regulations` AS `Regulation`
+      `xlabs_users`.`customs_duties` AS `CD`
+      `xlabs_users`.`regulations` AS `Regulation`
       )
     WHERE
     (

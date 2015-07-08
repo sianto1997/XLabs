@@ -63,7 +63,7 @@ class BeheerpaneelController extends AppController
         if (isset($this->request->data['name'])) {
 
             mysql_connect("localhost", "root", "") or die("Cannot connect to database");
-            mysql_select_db("customsknowledge") or die("Cannot connect to database");
+            mysql_select_db("xlabs_users") or die("Cannot connect to database");
             $name = $_POST['name'];
             $query = "delete from users where username = '" . $name . "'";
             (mysql_query($query));

@@ -6,9 +6,8 @@
 
 /* GENERAL */
 body{
-	font-family: 'Open Sans', sans-serif;
-	background:url(http://subtlepatterns.com/patterns/crossword.png);
-	font-size: 14px;
+	font-family: Microsoft JhengHei UI;
+		font-size: 14px;
   margin: 0px;
 }
 .wrapper{
@@ -51,13 +50,13 @@ body{
 /* BUTTONS */
 
 .login-button{
-	color: white;
 	font-size: 20px;
 	font-weight: bold;
 	text-decoration: none;
 	text-align: center;
-	background-color: #BED32F;
-	border-radius: 3px;
+  border-radius: 1.5px;
+	/*background-color: #BED32F;
+	
 	border-style: solid;
 	border-color: #AFC22B;
 	border-width: 1px;
@@ -73,10 +72,15 @@ body{
   -khtml-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
-  user-select: none;
+  user-select: none;*/
+  border: 1px solid rgb(165, 165, 165);
+  margin-right: 10px;
+  background-color: rgb(231, 231, 231);
+  box-shadow: 1px 1px 1px rgb(127, 127, 127);
+  width: 100px;
 }
 .login-button:hover{
-	background-color: #BED359;
+	background-color: rgb(198, 198, 198);
 }
 
 /* HOME CONTENT */
@@ -167,7 +171,15 @@ body{
 /* MODAL BUTTONS */
 .modal-button{
 	color: white;
-	font-size: 20px;
+
+  border: 1px solid rgb(165, 165, 165);
+  margin-right: 10px;
+  background-color: rgb(231, 231, 231);
+  box-shadow: 1px 1px 1px rgb(127, 127, 127);
+  padding: 5px 0px;
+  width: 100px;
+
+/*	font-size: 20px;
 	font-weight: bold;
 	text-decoration: none;
 	text-align: center;
@@ -184,10 +196,10 @@ body{
   -khtml-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
-  user-select: none;
-  padding-left: 10px;
+  user-select: none;*/
+/*  padding-left: 10px;
   padding-right: 10px;
-  margin-bottom: 24px;
+  margin-bottom: 24px;*/
 }
 .modal-button:hover{
 	background-color: #BED359;
@@ -223,4 +235,11 @@ body{
     margin-left: 8%;
     margin-right: 8%;
   }
+}
+.centered {
+  position:fixed;
+  left: 50%;
+  right: 50%;
+  top:auto;
+  bottom: auto;
 }

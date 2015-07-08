@@ -1,6 +1,6 @@
 
 <div class="users form">
-<?php echo $this->Session->flash('auth'); ?>
+
 <?php echo $this->Form->create('User'); ?>
 		</div>
 
@@ -15,6 +15,7 @@
 					
 				<tr class="sign_in_tr sign_in_10px">
 					<td class="sign_in_td" colspan="2"></td>
+					<?php echo $this->Session->flash('auth'); ?>
 				</tr>
 			
 			</thead>

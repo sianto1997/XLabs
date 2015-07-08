@@ -5224,3 +5224,416 @@ Stack Trace:
 #1 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
 #2 /Applications/XAMPP/xamppfiles/htdocs/xlabs/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #3 {main}
+2015-06-26 23:57:37 Error: [MissingActionException] Action AppController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'index',
+)
+Request URL: /pn/XLabs/app/
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/pn/XLabs/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/pn/XLabs/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/pn/XLabs/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-06-27 00:30:16 Error: [MissingActionException] Action AppController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'index',
+)
+Request URL: /PN/XLabs/app/
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/PN/XLabs/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/PN/XLabs/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/PN/XLabs/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-06-27 00:30:29 Error: [MissingActionException] Action AppController::import() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'import',
+)
+Request URL: /PN/XLabs/app/import
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/PN/XLabs/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/PN/XLabs/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/PN/XLabs/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-06-27 14:27:50 Error: [MissingActionException] Action AppController::import() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'import',
+)
+Request URL: /PN/XLabs/app/import
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/PN/XLabs/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/PN/XLabs/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/PN/XLabs/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-06-27 14:32:23 Error: [MissingControllerException] Controller class XLabsController could not be found.
+Exception Attributes: array (
+  'class' => 'XLabsController',
+  'plugin' => NULL,
+)
+Request URL: /XLabs//XLabs/app/import
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/XLabs/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-27 14:32:26 Error: [MissingActionException] Action AppController::import() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'import',
+)
+Request URL: /XLabs/app/import
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/XLabs/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/XLabs/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/XLabs/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-06-27 19:05:06 Error: [MissingActionException] Action AppController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'index',
+)
+Request URL: /XLabs/app/
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/XLabs/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/XLabs/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/XLabs/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-06-27 19:05:18 Error: [MissingActionException] Action AppController::beheer() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'beheer',
+)
+Request URL: /XLabs/app/beheer
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/XLabs/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/XLabs/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/XLabs/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-06-27 19:05:23 Error: [MissingActionException] Action AppController::beheerpaneel() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'beheerpaneel',
+)
+Request URL: /XLabs/app/beheerpaneel
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/XLabs/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/XLabs/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/XLabs/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-06-27 19:28:29 Error: [MissingActionException] Action AppController::beheerpaneel() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'beheerpaneel',
+)
+Request URL: /XLabs/app/beheerpaneel
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/XLabs/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/XLabs/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/XLabs/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-06-27 19:47:57 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /xlabs/css/img/id_logo.png
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xlabs/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-27 19:48:07 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /xlabs/img/id_logo.png
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xlabs/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-27 19:55:03 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /xlabs/css/img/id_logo.png
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xlabs/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-27 19:55:25 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /xlabs/css/xlabs/img/id_logo.png
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xlabs/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-27 19:55:38 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /xlabs/css/xlabsimg/id_logo.png
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xlabs/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-27 19:55:39 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /xlabs/css/xlabimg/id_logo.png
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xlabs/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-27 19:55:39 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /xlabs/css/xlaimg/id_logo.png
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xlabs/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-27 19:55:39 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /xlabs/css/xlimg/id_logo.png
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xlabs/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-27 19:55:39 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /xlabs/css/ximg/id_logo.png
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xlabs/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-27 19:55:39 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /xlabs/css/img/id_logo.png
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xlabs/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-27 19:55:42 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /xlabs/css/img/id_logo.png
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xlabs/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-27 19:55:50 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /xlabs/css/ximg/id_logo.png
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xlabs/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-27 19:55:51 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /xlabs/css/xlimg/id_logo.png
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xlabs/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-27 19:55:51 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /xlabs/css/xlaimg/id_logo.png
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xlabs/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-27 19:55:51 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /xlabs/css/xlabimg/id_logo.png
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xlabs/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-27 19:55:51 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /xlabs/css/xlabsimg/id_logo.png
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xlabs/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-27 19:55:52 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /xlabs/css/xlabs/img/id_logo.png
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xlabs/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-27 19:56:25 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /xlabs/css/xlabs/img/id_logo.png
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xlabs/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-27 19:56:26 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /xlabs/css/xlabs/img/id_logo.png
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xlabs/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-27 19:56:36 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /xlabs/css/xlabs/img/id_logo.png
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xlabs/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-27 19:56:41 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /xlabs/css/img/id_logo.png
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xlabs/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-27 19:57:18 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /xlabs/css/xlabimg/id_logo.png
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xlabs/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-27 19:57:18 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /xlabs/css/xlaimg/id_logo.png
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xlabs/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-27 19:57:18 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /xlabs/css/ximg/id_logo.png
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xlabs/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-27 19:57:18 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /xlabs/css/xlimg/id_logo.png
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xlabs/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-27 19:57:18 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /xlabs/css/xlabsimg/id_logo.png
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xlabs/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-27 20:00:21 Error: [MissingControllerException] Controller class ProgrammesController could not be found.
+Exception Attributes: array (
+  'class' => 'ProgrammesController',
+  'plugin' => NULL,
+)
+Request URL: /xlabs/programmes
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xlabs/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-06-27 20:01:25 Error: [MissingViewException] View file "Programmes/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Programmes/index.ctp',
+)
+Request URL: /xlabs/programmes
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(ProgrammesController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/xlabs/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-07-07 09:29:22 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] No such file or directory',
+  'enabled' => true,
+)
+Request URL: /xlabs/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/Model/Model.php(3617): ConnectionManager::getDataSource('default')
+#3 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/Model/Model.php(1155): Model->setDataSource('default')
+#4 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/Model/Model.php(3644): Model->setSource('users')
+#5 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/Model/Model.php(1387): Model->getDataSource()
+#6 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#7 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/View/Helper/FormHelper.php(468): FormHelper->_introspectModel('User', 'fields')
+#8 /Applications/XAMPP/xamppfiles/htdocs/xlabs/app/View/Users/login.ctp(4): FormHelper->create('User')
+#9 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/View/View.php(961): include('/Applications/X...')
+#10 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/View/View.php(923): View->_evaluate('/Applications/X...', Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/View/View.php(473): View->_render('/Applications/X...')
+#12 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#13 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#14 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#15 /Applications/XAMPP/xamppfiles/htdocs/xlabs/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2015-07-07 09:43:06 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] No such file or directory',
+  'enabled' => true,
+)
+Request URL: /xlabs/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/Model/Model.php(3617): ConnectionManager::getDataSource('default')
+#3 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/Model/Model.php(1155): Model->setDataSource('default')
+#4 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/Model/Model.php(3644): Model->setSource('users')
+#5 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/Model/Model.php(1387): Model->getDataSource()
+#6 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#7 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/View/Helper/FormHelper.php(468): FormHelper->_introspectModel('User', 'fields')
+#8 /Applications/XAMPP/xamppfiles/htdocs/xlabs/app/View/Users/login.ctp(4): FormHelper->create('User')
+#9 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/View/View.php(961): include('/Applications/X...')
+#10 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/View/View.php(923): View->_evaluate('/Applications/X...', Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/View/View.php(473): View->_render('/Applications/X...')
+#12 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#13 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#14 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#15 /Applications/XAMPP/xamppfiles/htdocs/xlabs/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}

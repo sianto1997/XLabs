@@ -74,7 +74,7 @@ class DATABASE_CONFIG {
 		'host' => 'localhost',
 		'login' => 'root',
 		'password' => '',
-		'database' => 'customsknowledge',
+		'database' => 'xlabs_users',
 		'prefix' => '',
 		//'encoding' => 'utf8',
 	);
@@ -85,7 +85,7 @@ class DATABASE_CONFIG {
 		'host' => 'localhost',
 		'login' => 'root',
 		'password' => '',
-		'database' => 'customsknowledge',
+		'database' => 'xlabs_users',
 		'prefix' => '',
 		//'encoding' => 'utf8',
 	);
