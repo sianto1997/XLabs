@@ -69,6 +69,7 @@ public $components = array('Session');
 	}
 
 	public function login(){
+		$this->set('pages', null);
 		if($this->request->is('post')){
 			if($this->Auth->login()){
 				//redirect after login, now it goes 2 the homepage! edit routes make them work!!!

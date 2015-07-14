@@ -24,7 +24,7 @@
 /** General Style Info **/
 body {
 	font-family: Microsoft JhengHei UI;
-	background: none repeat scroll 0% 0% #fff;
+	background: none repeat scroll 0% 0% #E7E7E7;
 	/*background: #fff;
 	color: #fff;
 	font-family:'lucida grande',verdana,helvetica,arial,sans-serif;*/
@@ -59,7 +59,7 @@ h2 {
 	font-size: 190%;
 }
 h3 {
-	color: #000;
+	color: #2c6877;
 	
 	font-size: 165%;
 }
@@ -67,10 +67,8 @@ h4 {
 	color: #993;
 	font-weight: normal;
 }
-ul, li {  
-	margin: 0 0px;
-  	padding: 0px 10px;
-  	text-transform: capitalize;
+ul, li {
+	margin: 0 12px;
 }
 p {
 	margin: 0 0 1em 0;
@@ -83,25 +81,12 @@ p {
 }
 
 #header{
-	/*padding: 20px 20px;*/
-	background-color: #fff;
-
-	height: 100px;
-}
-.sellpanelmenu {
-	line-height: 55px;
+	padding: 20px 20px;
+	background-color: rgb(231,231,231);
 }
 .sellpanelmenu li {
 	list-style: none;
-	float: left;
-	
-	
-}
-.main-logo {
-	padding-left: 20px;
-	padding-top: 18px;
-  	position: relative;
-  	width: 180px;
+	float: right;
 }
 .left-colum {
 	width: 30%;
@@ -412,7 +397,7 @@ form .submit input[type=submit] {
 	text-align: center;
 
 	border-radius: 1.5px;
-	padding: 10px;
+
 	border: 1px solid rgb(165, 165, 165);
 	margin-right: 10px;
 	background-color: rgb(231, 231, 231);
@@ -422,12 +407,8 @@ form .submit input[type=submit] {
 
 }
 form .submit input[type=submit]:hover {
-	background-color: rgba(231,231,231, 0.5);
+	background-color: rgb(198, 198, 198);
 }
-form .submit input[type=submit]:active {
-	background-color: rgba(165,165,165, 0.5);
-}
-
 /* Form errors */
 form .error {
 	background: #FFDACC;
@@ -828,165 +809,50 @@ pre {
   	padding-left: 33px;
   	background-size: 25px;
 }
-.menubargeneral {
 
-	border-top:3px solid rgb(127,127,127);
-	border-bottom:3px solid rgb(165,165,165);
+element {
 }
-.menubarbackground {
-	background-color: rgb(231,231,231);
+#gb#gb a.gb_pa {
+    color: #000;
+    cursor: default;
+    text-decoration: none;
 }
-.topmenubar{
-	top: 41px;
-	height: 57px;
-  position: absolute;
-  right: 0px;
+.gb_hb .gb_pa {
+    display: inline-block;
+    vertical-align: middle;
+    box-sizing: border-box;
+    height: 30px;
+    width: 30px;
 }
-.stripe {
-	  left: -49px;
-  position: absolute;
-  height: 50px;
-  top: -2px;
-  background:linear-gradient(135deg, transparent 35px, rgb(231,231,231) 0) top left;
+.gb_pa {
+    display: inline-block;
+    outline: medium none;
+    vertical-align: middle;
+    border-radius: 2px;
+    box-sizing: border-box;
+    height: 30px;
+    width: 30px;
 }
-.bottomtopbar {
-	  border-top: 3px solid rgb(127,127,127);
-  border-bottom: 3px solid rgb(165,165,165);
-  height: 9px;
-  width: 100%;
-  position: absolute;
-  top: 89px;
+.gb_hb .gb_oa {
+    font-size: 14px;
+    font-weight: bold;
 }
-.extraspace {
-	width: 500px;
-	float: left;
+.gb_ja {
+    line-height: normal;
+    text-align: left;
 }
-.currenttab {
-	  background-color: #fff;
-  border-left: 3px solid rgb(127,127,127);
-  border-right: 3px solid rgb(127,127,127);
+.gb_0c {
+    white-space: nowrap;
 }
-
-.inactivetab {
-	padding:0px 13px;
+.gb_6b > .gb_r {
+    line-height: 58px;
 }
-.inactivetab :hover {
-	  background-color: rgba(165,165,165, 0.2);
-  height: 52px;
+.gb_e {
+    text-align: right;
 }
-
-.accountbar {
-	right: 16px;
-	position: absolute;
-  	top: 0px;
-	line-height: 41px;
-	list-style: none;
+.gb_6b {
+    font: 13px/27px Arial,sans-serif;
 }
-.accountbarprofilepic {
-	border-radius: 50%;
-	height: 32px;
-	width:32px;
-	line-height: 41px;
-  	border: 1px solid rgb(127,127,127);
-  	top: 4.5px;
-  	position: relative;
-  	 padding: 3px;
+.gb_Vc {
+    color: #000;
 }
-.accountbarprofilepic :active {
-	width: 100px;
-}
-.accountbar li {
-	float: left;
-	 padding: 0px 4px;
-}
-.npic {
-	/*height: 20px;*/
-  	top: 6px;
-  	position: relative;
-  	margin: 0px 8px;
-}
-
-.npic-on {
-	/*height: 20px;*/
-  	top: 6px;
-  	position: relative;
-  	margin:0px 8px;
-}
-.toparrow {
-  position: absolute;
-  height: 30px;
-  width: 32px;
-  top: -16px;
-  background: linear-gradient(135deg, transparent 15px, #A5A5A5 0) top left, linear-gradient(225deg, transparent 15px, #A5A5A5 0) top right;
-  background-size: 50% 50%;
-  background-repeat: no-repeat;
-}
-#accounts  {
-	right: -1px;
-}
-
-#notifications {
-  right: 56px;
-}
-.toparrowinside {
-  position: absolute;
-  height: 30px;
-  width: 32px;
-  top: 1px;
-  right: 0px;
-  background: linear-gradient(135deg, transparent 15px, #fff 0) top left, 
-  linear-gradient(225deg, transparent 15px, #fff 0) top right;
-  background-size: 50% 50%;
-  background-repeat: no-repeat;
-}
-.profilepiclarge {
-	height: 150px;
-  border: 1px solid rgb(165,165,165);
-  padding: 10px;
-  border-radius: 0%;
-  width: 150px;
-    float: left;
-    margin: 15px;
-}
-
-.button {
-	border: 1px solid rgb(165,165,165);
-		border-radius: 1.5px;
-
-	position: absolute;
-	padding: 10px 10px 10px 10px;
-	background-color: rgb(231,231,231);
-
-	box-shadow: 1px 1px 1px rgb(127, 127, 127);
-}
-.button:hover {
-	background-color: rgba(231,231,231, 0.5);
-}
-.button:active {
-	background-color: rgba(165,165,165, 0.5);
-}
-.signoutbutton {
-  	background: url('../img/id_logo.png') no-repeat left 50%;
-	bottom: 10px;
- 	right: 10px;
- 	background-size: 20px;
-
-	background-position-x: 10px;
-	padding: 10px 10px 10px 35px;
-
-	background-color: rgb(231,231,231);
-}
-.settingsbutton {
-  	background: url('../img/id_logo.png') no-repeat left 50%;
-	bottom: 62px;
- 	right: 10px;
- 	background-size: 20px;
-
-	background-position-x: 10px;
-	padding: 10px 10px 10px 35px;
-
-	background-color: rgb(231,231,231);
-}
-
-
-

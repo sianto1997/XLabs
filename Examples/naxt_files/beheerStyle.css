@@ -2,7 +2,7 @@
 body{
 	font-family:Microsoft JhengHei UI;
 	font-size: 14px;
-	background: #fff;
+	background: transparent url("http://subtlepatterns.com/patterns/crossword.png") repeat scroll 0% 0%
 }
 a {
 	text-decoration: none;

@@ -28,12 +28,12 @@ App::uses('AppController', 'Controller');
  * @package       app.Controller
  * @link http://book.cakephp.org/2.0/en/controllers/pages-controller.html
  */
-class BeheerpaneelController extends AppController
+class DashboardController extends AppController
 {
     
     function beforeFilter() {
         parent::beforeFilter();
-        $this->layout = 'sellpanel';
+        $this->layout = 'default';
     }
 
     /**
@@ -50,10 +50,15 @@ class BeheerpaneelController extends AppController
      */
     public $uses = array('Code');
 
+    public $pages = ['dashboard', 'programmes'];
+
+        
 
     public function index()
     {
 
+        $pages = array('dashboard', 'programmes');
+        $this->set('pages', $pages);
     }
 
     public function gebruikers()

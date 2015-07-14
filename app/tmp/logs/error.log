@@ -5637,3 +5637,589 @@ Stack Trace:
 #14 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
 #15 /Applications/XAMPP/xamppfiles/htdocs/xlabs/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #16 {main}
+2015-07-08 15:52:11 Error: [MissingActionException] Action AppController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'index',
+)
+Request URL: /pn/xlabs/app/
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/pn/xlabs/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/pn/xlabs/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/pn/xlabs/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-07-08 15:52:20 Error: [MissingActionException] Action AppController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'login',
+)
+Request URL: /pn/xlabs/app/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/pn/xlabs/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/pn/xlabs/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/pn/xlabs/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-07-08 15:52:28 Error: [MissingActionException] Action AppController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'index',
+)
+Request URL: /pn/xlabs/app/
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/pn/xlabs/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/pn/xlabs/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/pn/xlabs/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-07-08 15:53:46 Error: [MissingViewException] View file "App/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'App/index.ctp',
+)
+Request URL: /pn/xlabs/app/
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/pn/xlabs/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Applications/XAMPP/xamppfiles/htdocs/pn/xlabs/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/pn/xlabs/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/XAMPP/xamppfiles/htdocs/pn/xlabs/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/pn/xlabs/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-07-08 15:55:06 Error: Fatal Error (1): Call to undefined method App::hasMethod() in [/Applications/XAMPP/xamppfiles/htdocs/pn/xlabs/lib/Cake/Controller/Component/PaginatorComponent.php, line 187]
+2015-07-08 15:55:06 Error: [FatalErrorException] Call to undefined method App::hasMethod()
+Request URL: /pn/xlabs/app/
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/pn/xlabs/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Applications/X...', 187)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Applications/X...', 187, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/pn/xlabs/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Applications/X...', 187, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/pn/xlabs/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-07-08 15:56:06 Error: Fatal Error (1): Call to undefined method App::hasMethod() in [/Applications/XAMPP/xamppfiles/htdocs/pn/xlabs/lib/Cake/Controller/Component/PaginatorComponent.php, line 187]
+2015-07-08 15:56:06 Error: [FatalErrorException] Call to undefined method App::hasMethod()
+Request URL: /pn/xlabs/app/
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/pn/xlabs/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Applications/X...', 187)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Applications/X...', 187, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/pn/xlabs/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Applications/X...', 187, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/pn/xlabs/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-07-08 15:56:14 Error: [MissingViewException] View file "App/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'App/index.ctp',
+)
+Request URL: /pn/xlabs/app/
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/pn/xlabs/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Applications/XAMPP/xamppfiles/htdocs/pn/xlabs/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/pn/xlabs/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/XAMPP/xamppfiles/htdocs/pn/xlabs/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/pn/xlabs/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-07-08 15:56:16 Error: [MissingViewException] View file "App/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'App/index.ctp',
+)
+Request URL: /pn/xlabs/app/
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/pn/xlabs/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Applications/XAMPP/xamppfiles/htdocs/pn/xlabs/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/pn/xlabs/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/XAMPP/xamppfiles/htdocs/pn/xlabs/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/pn/xlabs/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2015-07-08 15:56:26 Error: [MissingActionException] Action AppController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'index',
+)
+Request URL: /pn/xlabs/app/
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/pn/xlabs/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/pn/xlabs/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/pn/xlabs/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-07-08 15:56:32 Error: [MissingActionException] Action AppController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'index',
+)
+Request URL: /pn/xlabs/app/
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/pn/xlabs/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/pn/xlabs/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/pn/xlabs/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-07-08 15:56:53 Error: [MissingActionException] Action AppController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'index',
+)
+Request URL: /pn/xlabs/app/
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/pn/xlabs/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/pn/xlabs/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/pn/xlabs/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-07-08 15:56:55 Error: [MissingActionException] Action AppController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'index',
+)
+Request URL: /pn/xlabs/app/
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/pn/xlabs/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/pn/xlabs/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/pn/xlabs/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-07-08 15:57:02 Error: [MissingActionException] Action AppController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'index',
+)
+Request URL: /pn/xlabs/app/
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/pn/xlabs/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/pn/xlabs/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/pn/xlabs/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-07-08 15:57:12 Error: [MissingActionException] Action AppController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'index',
+)
+Request URL: /pn/xlabs/app/
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/pn/xlabs/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/pn/xlabs/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/pn/xlabs/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-07-08 15:57:16 Error: [MissingActionException] Action AppController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'AppController',
+  'action' => 'login',
+)
+Request URL: /pn/xlabs/app/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/pn/xlabs/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/pn/xlabs/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AppController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/pn/xlabs/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-07-08 23:15:42 Error: [MissingControllerException] Controller class LoginController could not be found.
+Exception Attributes: array (
+  'class' => 'LoginController',
+  'plugin' => NULL,
+)
+Request URL: /xlabs/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xlabs/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-08 23:15:58 Error: [MissingControllerException] Controller class LoginController could not be found.
+Exception Attributes: array (
+  'class' => 'LoginController',
+  'plugin' => NULL,
+)
+Request URL: /xlabs/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xlabs/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-08 23:16:03 Error: [MissingControllerException] Controller class LoginController could not be found.
+Exception Attributes: array (
+  'class' => 'LoginController',
+  'plugin' => NULL,
+)
+Request URL: /xlabs/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xlabs/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-09 00:04:21 Error: [MissingControllerException] Controller class LoginController could not be found.
+Exception Attributes: array (
+  'class' => 'LoginController',
+  'plugin' => NULL,
+)
+Request URL: /xlabs/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xlabs/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-09 16:04:05 Error: [MissingControllerException] Controller class LoginController could not be found.
+Exception Attributes: array (
+  'class' => 'LoginController',
+  'plugin' => NULL,
+)
+Request URL: /xlabs/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xlabs/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-09 23:19:19 Error: [MissingControllerException] Controller class <imgSrc=Controller could not be found.
+Exception Attributes: array (
+  'class' => '<imgSrc=Controller',
+  'plugin' => NULL,
+)
+Request URL: /xlabs/%3Cimg%20src=
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xlabs/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-09 23:37:54 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /xlabs/img/stripe-hq.png
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xlabs/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-09 23:38:10 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /xlabs/img/stripe-hq.png
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xlabs/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-09 23:38:30 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /xlabs/img/stripe-hq.png
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xlabs/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-11 15:15:23 Error: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'xlabs_users.users' doesn't exist
+Request URL: /xlabs/
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/Model/Datasource/Database/Mysql.php(340): DboSource->_execute('SHOW FULL COLUM...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/Model/Model.php(1390): Mysql->describe(Object(User))
+#3 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#4 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/View/Helper/FormHelper.php(468): FormHelper->_introspectModel('User', 'fields')
+#5 /Applications/XAMPP/xamppfiles/htdocs/xlabs/app/View/Users/login.ctp(4): FormHelper->create('User')
+#6 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/View/View.php(961): include('/Applications/X...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/View/View.php(923): View->_evaluate('/Applications/X...', Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/View/View.php(473): View->_render('/Applications/X...')
+#9 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#10 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#11 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#12 /Applications/XAMPP/xamppfiles/htdocs/xlabs/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-07-11 15:27:41 Error: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'xlabs_users.users' doesn't exist
+Request URL: /xlabs/
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/Model/Datasource/Database/Mysql.php(340): DboSource->_execute('SHOW FULL COLUM...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/Model/Model.php(1390): Mysql->describe(Object(User))
+#3 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#4 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/View/Helper/FormHelper.php(468): FormHelper->_introspectModel('User', 'fields')
+#5 /Applications/XAMPP/xamppfiles/htdocs/xlabs/app/View/Users/login.ctp(4): FormHelper->create('User')
+#6 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/View/View.php(961): include('/Applications/X...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/View/View.php(923): View->_evaluate('/Applications/X...', Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/View/View.php(473): View->_render('/Applications/X...')
+#9 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#10 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#11 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#12 /Applications/XAMPP/xamppfiles/htdocs/xlabs/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2015-07-11 23:54:57 Error: [MissingTableException] Table users for model User was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'users',
+  'class' => 'User',
+  'ds' => 'default',
+)
+Request URL: /xlabs/
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/Model/Model.php(3644): Model->setSource('users')
+#1 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/Model/Model.php(1387): Model->getDataSource()
+#2 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#3 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/View/Helper/FormHelper.php(468): FormHelper->_introspectModel('User', 'fields')
+#4 /Applications/XAMPP/xamppfiles/htdocs/xlabs/app/View/Users/login.ctp(4): FormHelper->create('User')
+#5 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/View/View.php(961): include('/Applications/X...')
+#6 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/View/View.php(923): View->_evaluate('/Applications/X...', Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/View/View.php(473): View->_render('/Applications/X...')
+#8 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#9 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#10 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#11 /Applications/XAMPP/xamppfiles/htdocs/xlabs/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-07-12 18:22:07 Error: Fatal Error (4): syntax error, unexpected 'echo' (T_ECHO) in [/Applications/XAMPP/xamppfiles/htdocs/xlabs/app/View/Layouts/sellpanel.ctp, line 29]
+2015-07-12 18:22:07 Error: [FatalErrorException] syntax error, unexpected 'echo' (T_ECHO)
+Request URL: /xlabs/beheerpaneel
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 29)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 29, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 29, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-07-12 18:22:34 Error: [MissingControllerException] Controller class XlabsController could not be found.
+Exception Attributes: array (
+  'class' => 'XlabsController',
+  'plugin' => NULL,
+)
+Request URL: /xlabs/xlabs
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xlabs/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-12 18:23:12 Error: [MissingControllerException] Controller class XlabsController could not be found.
+Exception Attributes: array (
+  'class' => 'XlabsController',
+  'plugin' => NULL,
+)
+Request URL: /xlabs/xlabs
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xlabs/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-12 20:00:40 Error: Fatal Error (4): syntax error, unexpected '<' in [/Applications/XAMPP/xamppfiles/htdocs/xlabs/app/View/Layouts/default.ctp, line 27]
+2015-07-12 20:00:40 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /xlabs/
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 27)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 27, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 27, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-07-12 20:41:48 Error: [MissingControllerException] Controller class LoginController could not be found.
+Exception Attributes: array (
+  'class' => 'LoginController',
+  'plugin' => NULL,
+)
+Request URL: /xlabs/login
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xlabs/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-12 20:46:57 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /xlabs/img/id_logo.png
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xlabs/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-12 21:34:43 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /xlabs/img/stripe-hq1.png
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xlabs/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-12 22:14:01 Error: Fatal Error (4): syntax error, unexpected 'foreach' (T_FOREACH) in [/Applications/XAMPP/xamppfiles/htdocs/xlabs/app/View/Elements/beheermenu.ctp, line 17]
+2015-07-12 22:14:01 Error: [FatalErrorException] syntax error, unexpected 'foreach' (T_FOREACH)
+Request URL: /xlabs/programmes
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 17)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 17, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 17, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-07-12 22:14:07 Error: Fatal Error (4): syntax error, unexpected 'in' (T_STRING) in [/Applications/XAMPP/xamppfiles/htdocs/xlabs/app/View/Elements/beheermenu.ctp, line 17]
+2015-07-12 22:14:07 Error: [FatalErrorException] syntax error, unexpected 'in' (T_STRING)
+Request URL: /xlabs/programmes
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 17)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 17, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 17, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-07-12 22:14:17 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [/Applications/XAMPP/xamppfiles/htdocs/xlabs/app/View/Elements/beheermenu.ctp, line 17]
+2015-07-12 22:14:17 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /xlabs/programmes
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 17)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 17, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 17, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-07-12 22:14:44 Error: Fatal Error (4): syntax error, unexpected '/' in [/Applications/XAMPP/xamppfiles/htdocs/xlabs/app/View/Elements/beheermenu.ctp, line 18]
+2015-07-12 22:14:44 Error: [FatalErrorException] syntax error, unexpected '/'
+Request URL: /xlabs/programmes
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 18)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 18, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 18, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-07-12 22:14:51 Error: Fatal Error (4): syntax error, unexpected '/' in [/Applications/XAMPP/xamppfiles/htdocs/xlabs/app/View/Elements/beheermenu.ctp, line 17]
+2015-07-12 22:14:51 Error: [FatalErrorException] syntax error, unexpected '/'
+Request URL: /xlabs/programmes
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 17)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 17, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 17, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-07-12 22:15:24 Error: Fatal Error (4): syntax error, unexpected '/' in [/Applications/XAMPP/xamppfiles/htdocs/xlabs/app/View/Elements/beheermenu.ctp, line 24]
+2015-07-12 22:15:24 Error: [FatalErrorException] syntax error, unexpected '/'
+Request URL: /xlabs/programmes
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 24)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 24, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 24, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-07-12 22:15:45 Error: Fatal Error (4): syntax error, unexpected '}' in [/Applications/XAMPP/xamppfiles/htdocs/xlabs/app/View/Elements/beheermenu.ctp, line 27]
+2015-07-12 22:15:45 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /xlabs/programmes
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 27)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 27, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 27, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-07-12 22:18:32 Error: [MissingControllerException] Controller class BeheerpaneelController could not be found.
+Exception Attributes: array (
+  'class' => 'BeheerpaneelController',
+  'plugin' => NULL,
+)
+Request URL: /xlabs/dashboard
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xlabs/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-12 22:18:58 Error: [MissingControllerException] Controller class DashboardController could not be found.
+Exception Attributes: array (
+  'class' => 'DashboardController',
+  'plugin' => NULL,
+)
+Request URL: /xlabs/dashboard
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xlabs/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-12 22:19:26 Error: [MissingControllerException] Controller class DashboardController could not be found.
+Exception Attributes: array (
+  'class' => 'DashboardController',
+  'plugin' => NULL,
+)
+Request URL: /xlabs/dashboard
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xlabs/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-12 22:19:35 Error: [MissingControllerException] Controller class DashboardController could not be found.
+Exception Attributes: array (
+  'class' => 'DashboardController',
+  'plugin' => NULL,
+)
+Request URL: /xlabs/dashboard
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xlabs/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-13 14:50:42 Error: Fatal Error (4): syntax error, unexpected '<' in [/Applications/XAMPP/xamppfiles/htdocs/xlabs/app/View/Elements/beheermenu.ctp, line 29]
+2015-07-13 14:50:42 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /xlabs/dashboard
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 29)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 29, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 29, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-07-13 17:27:22 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /xlabs/img/default-profile-pic.png
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xlabs/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-07-13 17:48:50 Error: Fatal Error (4): syntax error, unexpected '::' (T_PAAMAYIM_NEKUDOTAYIM), expecting ',' or ';' in [/Applications/XAMPP/xamppfiles/htdocs/xlabs/app/View/Elements/beheermenu.ctp, line 86]
+2015-07-13 17:48:50 Error: [FatalErrorException] syntax error, unexpected '::' (T_PAAMAYIM_NEKUDOTAYIM), expecting ',' or ';'
+Request URL: /xlabs/dashboard
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 86)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 86, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 86, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-07-13 17:49:00 Error: [MissingHelperException] Helper class AuthComponentHelper could not be found.
+Exception Attributes: array (
+  'class' => 'AuthComponentHelper',
+  'plugin' => false,
+)
+Request URL: /xlabs/dashboard
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('AuthComponent')
+#1 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/View/View.php(848): HelperCollection->__isset('AuthComponent')
+#2 /Applications/XAMPP/xamppfiles/htdocs/xlabs/app/View/Elements/beheermenu.ctp(86): View->__get('AuthComponent')
+#3 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/View/View.php(961): include('/Applications/X...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/View/View.php(923): View->_evaluate('/Applications/X...', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/View/View.php(1217): View->_render('/Applications/X...', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/View/View.php(418): View->_renderElement('/Applications/X...', Array, Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/xlabs/app/View/Layouts/sellpanel.ctp(35): View->element('beheermenu')
+#8 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/View/View.php(961): include('/Applications/X...')
+#9 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/View/View.php(923): View->_evaluate('/Applications/X...', Array)
+#10 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/View/View.php(546): View->_render('/Applications/X...')
+#11 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/View/View.php(481): View->renderLayout('', 'sellpanel')
+#12 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#13 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#14 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(DashboardController), Object(CakeRequest))
+#15 /Applications/XAMPP/xamppfiles/htdocs/xlabs/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2015-07-13 18:14:56 Error: Fatal Error (1): Cannot access empty property in [/Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/View/View.php, line 867]
+2015-07-13 18:14:56 Error: [FatalErrorException] Cannot access empty property
+Request URL: /xlabs/dashboard
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Cannot access e...', '/Applications/X...', 867)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot access e...', '/Applications/X...', 867, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Cannot access e...', '/Applications/X...', 867, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-07-13 18:15:45 Error: Fatal Error (1): Cannot access empty property in [/Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/View/View.php, line 867]
+2015-07-13 18:15:45 Error: [FatalErrorException] Cannot access empty property
+Request URL: /xlabs/dashboard
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Cannot access e...', '/Applications/X...', 867)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot access e...', '/Applications/X...', 867, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Cannot access e...', '/Applications/X...', 867, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-07-13 18:19:01 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE), expecting function (T_FUNCTION) in [/Applications/XAMPP/xamppfiles/htdocs/xlabs/app/Controller/DashboardController.php, line 55]
+2015-07-13 18:19:01 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE), expecting function (T_FUNCTION)
+Request URL: /xlabs/dashboard
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 55)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 55, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 55, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-07-13 18:19:46 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [/Applications/XAMPP/xamppfiles/htdocs/xlabs/app/Controller/DashboardController.php, line 60]
+2015-07-13 18:19:46 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /xlabs/dashboard
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 60)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 60, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 60, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-07-13 18:24:37 Error: Fatal Error (4): syntax error, unexpected end of file in [/Applications/XAMPP/xamppfiles/htdocs/xlabs/app/View/Elements/beheermenu.ctp, line 171]
+2015-07-13 18:24:37 Error: [FatalErrorException] syntax error, unexpected end of file
+Request URL: /xlabs/pages/display/home
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 171)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 171, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 171, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-07-13 18:25:12 Error: Fatal Error (4): syntax error, unexpected '}' in [/Applications/XAMPP/xamppfiles/htdocs/xlabs/app/View/Elements/beheermenu.ctp, line 93]
+2015-07-13 18:25:12 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /xlabs/pages/display/home
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 93)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 93, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 93, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/xlabs/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}

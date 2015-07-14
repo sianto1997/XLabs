@@ -2,6 +2,8 @@
 
 echo $this->Html->charset();
 echo $this->Html->css('beheerStyle');
+
+echo $this->Html->css('account-test');
 ?>
 
 <head>

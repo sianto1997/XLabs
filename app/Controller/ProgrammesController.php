@@ -42,6 +42,8 @@ class ProgrammesController extends AppController
     public function index()
     {
 
+        $pages = array('dashboard', 'programmes');
+        $this->set('pages', $pages);
     }
 
     public function gebruikers()

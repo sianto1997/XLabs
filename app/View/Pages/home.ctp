@@ -22,18 +22,20 @@ echo $this->Html->css('homeStyle');
         <!-- XLABS LOGO -->
         <!-- there isnt an url yet -->
         <div class="noselect centered">
-          <?php
-          echo $this->Html->link(
-              $this->Html->image('logo.png'),
-              'http://www.google.com',
-              array('target' => '_blank', 'escape' => false, 'id' => ''));
-          ?>
+                <?php  
+         echo $this->Html->link(
+          $this->Html->image('logo.png',array('class' => 'main-logo')),
+          '/',
+          array('escape' => false)
+        );
+
+        ?>
         </div>
         <!-- END LOGO -->
 
         <!-- BUTTONS FOR LOGIN AND REGISTER -->
         <!-- Redirect moet gefixt worden !!!!!!!!! -->
-        <a href="/xlabs/login">
+        <a href="/xlabs/users/login">
           <button class="login-button">
       		    Login
           </button>

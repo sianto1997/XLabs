@@ -50,7 +50,7 @@
 							<td class="sign_in_td" style="font-size: 10px;"><input style="font-size: 10px; height: initial; width: initial;" id="remember_me" name="remember_me" value="Remember me?" type="checkbox">Remember me?</td>
 						</tr><tr>
 							<td class="sign_in_td"></td>
-							<td class="sign_in_td" style="float:right"><?php echo $this->Form->end(('Sign In'), array('class' => 'sign_in_submit')); ?></td>
+							<td class="sign_in_td" style="float:right"><?php echo $this->Form->end(('Sign In'), array('class' => 'button')); ?></td>
 						
 					</tr>
 				
