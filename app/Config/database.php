@@ -73,8 +73,8 @@ class DATABASE_CONFIG {
 		'persistent' => false,
 		'host' => 'localhost',
 		'login' => 'root',
-		'password' => '',
-		'database' => 'xlabs_users',
+		'password' => 'root',
+		'database' => 'xlabs',
 		'prefix' => '',
 		//'encoding' => 'utf8',
 	);
@@ -84,8 +84,8 @@ class DATABASE_CONFIG {
 		'persistent' => false,
 		'host' => 'localhost',
 		'login' => 'root',
-		'password' => '',
-		'database' => 'xlabs_users',
+		'password' => 'root',
+		'database' => 'xlabs',
 		'prefix' => '',
 		//'encoding' => 'utf8',
 	);

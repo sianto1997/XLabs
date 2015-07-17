@@ -44,6 +44,43 @@ class ProgrammesController extends AppController
 
         $pages = array('dashboard', 'programmes');
         $this->set('pages', $pages);
+        $sql = "
+        SELECT * FROM
+          (
+            SELECT
+              `programmes`.`id`,
+              `programmes`.`name`,
+              `programmes`.`chapter_id`,
+              `programmes`.`description`,
+              `programmes`.`description`,
+              `programmes`.`logo`,
+              (
+                `programmes`.`id` > 0
+              ) AS test
+            FROM
+              `xlabs`.`programmes` AS `programmes`
+            INNER JOIN `xlabs`.`joined_programmes` AS `joined_programmes` ON (`joined_programmes`.`user_id`=`xlabs`.`users`.`id`)
+
+            WHERE
+            (
+                `programmes`.`id` > 0
+          ) AS Result
+        ORDER BY Result.test DESC
+        ";
+
+       // pr($sql);
+        mysql_connect("localhost", "root", "root") or die("Cannot connect to database");
+        mysql_select_db("xlabs") or die("Cannot connect to database");
+        $name = $_POST['name'];
+      //  $query = "delete from users where username = '" . $name . "'";
+        
+        $result = (mysql_query($sql));
+
+        $available_programmes = $result;
+
+
+
+        $this->set('available_programmes', $available_programmes);
     }
 
     public function gebruikers()
@@ -52,8 +89,8 @@ class ProgrammesController extends AppController
 
         if (isset($this->request->data['name'])) {
 
-            mysql_connect("localhost", "root", "") or die("Cannot connect to database");
-            mysql_select_db("xlabs_users") or die("Cannot connect to database");
+            mysql_connect("localhost", "root", "root") or die("Cannot connect to database");
+            mysql_select_db("xlabs") or die("Cannot connect to database");
             $name = $_POST['name'];
             $query = "delete from users where username = '" . $name . "'";
             (mysql_query($query));

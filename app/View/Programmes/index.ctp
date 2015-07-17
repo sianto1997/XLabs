@@ -18,6 +18,12 @@ echo $this->Html->css('account-test');
 <!--Deze text is  filler -->
 <h2>Welcome to our programmes page</h2>
 <p>Pick one of the programmes below to join them.</p>
+
+
+
+<div>
+<?php var_dump($available_programmes); ?>
+</div>
 </body>
 
 <footer></footer>

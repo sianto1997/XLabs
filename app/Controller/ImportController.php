@@ -81,7 +81,7 @@ SELECT * FROM
         {$this->_generateSearchQuery($query)}
       ) AS test
     FROM
-      `xlabs_users`.`codes` AS `Code`
+      `xlabs`.`codes` AS `Code`
     WHERE
       ({$this->_generateSearchQuery($query)}) > 0
   ) AS Result
@@ -305,7 +305,7 @@ ORDER BY Result.test DESC
 SELECT
     `Code`.`id`, `Code`.`parent_id`, `Code`.`chapter_id`, `Code`.`code`, `Code`.`description`, `Code`.`comment`, `Code`.`created`, `Code`.`modified`
 FROM
-    `xlabs_users`.`codes` AS `Code`
+    `xlabs`.`codes` AS `Code`
 WHERE
 
 EOD;
@@ -375,8 +375,8 @@ SELECT * FROM
         {$this->_generateSearchQuery($query)}
       ) AS test
     FROM
-      `xlabs_users`.`codes` `Code`
-    INNER JOIN `xlabs_users`.`code_closures` AS `CodeClosure` ON (`CodeClosure`.`child_id`=`Code`.`id`)
+      `xlabs`.`codes` `Code`
+    INNER JOIN `xlabs`.`code_closures` AS `CodeClosure` ON (`CodeClosure`.`child_id`=`Code`.`id`)
     WHERE
       ({$this->_generateSearchQuery($query)}) > 0
   ) AS Result

@@ -94,7 +94,7 @@ $(document).ready(function()
              if (!$connect) {
                  die(mysql_error());
              }
-             mysql_select_db("xlabs_users");
+             mysql_select_db("xlabs");
 
 $results = mysql_query("SELECT username FROM users");
 //while ($row = mysql_fetch_array($results)){
@@ -139,7 +139,7 @@ $results = mysql_query("SELECT username FROM users");
              if (!$connect) {
                  die(mysql_error());
              }
-             mysql_select_db("xlabs_users");
+             mysql_select_db("xlabs");
              $results = mysql_query("SELECT * FROM users");
              while($row = mysql_fetch_array($results)) {
              ?>
