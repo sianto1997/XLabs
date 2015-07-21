@@ -1,6 +1,24 @@
 
 <?php if ($pages) {?>
+
 <script>
+//Firstclick is neccesary for opening the overlay
+$firstClick = false;
+//Close all overlays unless it is just open
+function CloseAll() {
+	if (Account("isOpen")() == true && $firstClick == false || Notifications("isOpen")() == true && $firstClick == false){
+		Account("close")();
+		Notifications("close")();
+	} else if (Account("isOpen")() == true && $firstClick == true || Notifications("isOpen")() == true && $firstClick == true) {
+		$firstClick = false;
+	}
+}
+//When you click on one of the overlays it stays open
+function ObjectClick() {
+	$firstClick = true;
+}
+
+
 function Account(fname) {
 	
 	var isOpen = function() {
@@ -17,6 +35,7 @@ function Account(fname) {
 	var open  = function() {
 
 		document.getElementById('account').setAttribute('class', 'meflyout open');
+		$firstClick = true;
 	};
 
 	//Click default
@@ -37,6 +56,9 @@ function Account(fname) {
 	else if (fname == "close") {
 		return close;
 	}
+	else if (fname == "isOpen") {
+		return isOpen;
+	}
 	
 }
 function Notifications(fname) {
@@ -55,6 +77,7 @@ function Notifications(fname) {
 	var open  = function() {
 
 		document.getElementById('notifications').setAttribute('class', 'meflyout open');
+		$firstClick = true;
 	};
 
 	//Click default
@@ -71,11 +94,9 @@ function Notifications(fname) {
 	var changeIcon = function() { 
 		if (document.getElementById('notificationsIcon').getAttribute('src') === '/xlabs/img/notifications-off.png'){
 			document.getElementById('notificationsIcon').setAttribute('src','/xlabs/img/notifications-on.png');
-			document.getElementById('notificationsIcon').setAttribute('class','npic-on');
 		}
 		else {
 			document.getElementById('notificationsIcon').setAttribute('src','/xlabs/img/notifications-off.png');
-			document.getElementById('notificationsIcon').setAttribute('class','npic');
 		}
 
 	};
@@ -88,15 +109,25 @@ function Notifications(fname) {
 	else if (fname == "newAlerts") {
 		return changeIcon;
 	}
+
+	else if (fname == "isOpen") {
+		return isOpen;
+	}
 	
 }
 
 
 </script>
-<div class="accountbar" onClick="myFunction()">
-	<li><a onClick="Notifications('click')()"><?php echo $this->Html->image('notifications-off.png', array('class' => 'npic', 'id' => 'notificationsIcon'))?></a></li>
-	<li><a onClick="Account('click')()">admin</a></li>
-	<li><a onClick="Account('click')()"><?php echo $this->Html->image('default_profile_pic.png', array('class' => 'accountbarprofilepic'))?></a></li>
+<div class="accountbar" onClick="">
+	<a class="accountbaritem account-pic" onClick="Account('click')()">
+	
+		<accountname>admin</accountname>
+		<?php echo $this->Html->image('default_profile_pic.png', array('class' => 'accountbarprofilepic'))?>
+	</a>
+	<a class="accountbaritem" onClick="Notifications('click')()">
+		<?php echo $this->Html->image('notifications-off.png', array('class' => 'npic', 'id' => 'notificationsIcon'))?>
+	</a>
+	
 </div>
 
 
@@ -108,7 +139,8 @@ function Notifications(fname) {
 <?php  
          echo 
           $this->Html->image('stripe-hq2.png',array('class' => 'stripe menubarbackground'));
-			?>
+			?>	
+
 <ul class="sellpanelmenu">
 
 	<?php 
@@ -136,14 +168,13 @@ function Notifications(fname) {
 	
 
 	
-	<div class="extraspace">
-</div>
+
 </ul>
 
 </div>
 
  <?php if ($pages) {?>
-<div class="meflyout" id="account" data-truncated="true">
+<div class="meflyout" id="account" onClick="ObjectClick()" data-truncated="true">
 	<div class="toparrow" id="accounts" >
 		<div class="toparrowinside"  >
 		</div>
@@ -165,7 +196,7 @@ function Notifications(fname) {
 		</a>
 </div>
 
-<div class="meflyout" id="notifications">
+<div class="meflyout" id="notifications" onClick="ObjectClick()" >
 	<div class="toparrow" id="notifications" >
 		<div class="toparrowinside"  >
 		</div>

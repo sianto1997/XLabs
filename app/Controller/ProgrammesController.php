@@ -21,12 +21,7 @@
 App::uses('AppController', 'Controller');
 
 /**
- * Static content controller
- *
- * Override this controller by placing a copy in controllers directory of an application
- *
- * @package       app.Controller
- * @link http://book.cakephp.org/2.0/en/controllers/pages-controller.html
+ * @property Code Code
  */
 class ProgrammesController extends AppController
 {
@@ -41,7 +36,6 @@ class ProgrammesController extends AppController
 
     public function index()
     {
-
         $pages = array('dashboard', 'programmes');
         $this->set('pages', $pages);
         $sql = "
@@ -50,34 +44,38 @@ class ProgrammesController extends AppController
             SELECT
               `programmes`.`id`,
               `programmes`.`name`,
-              `programmes`.`chapter_id`,
-              `programmes`.`description`,
               `programmes`.`description`,
               `programmes`.`logo`,
+              `joined_programmes`.`joined`,
               (
                 `programmes`.`id` > 0
               ) AS test
             FROM
-              `xlabs`.`programmes` AS `programmes`
-            INNER JOIN `xlabs`.`joined_programmes` AS `joined_programmes` ON (`joined_programmes`.`user_id`=`xlabs`.`users`.`id`)
-
+              `joined_programmes` AS `joined_programmes`
+              
+              
+              INNER JOIN `programmes` ON (`programmes`.`id` =`joined_programmes`.`programme_id`)
+              LEFT OUTER JOIN `users` ON (`users`.`id` = `joined_programmes`.`user_id`)
             WHERE
             (
-                `programmes`.`id` > 0
+                `joined_programmes`.`visible` = 1 AND `joined_programmes`.`user_id` = {get_current_user_id()}
+                
+                )
           ) AS Result
+          
         ORDER BY Result.test DESC
         ";
 
        // pr($sql);
         mysql_connect("localhost", "root", "root") or die("Cannot connect to database");
         mysql_select_db("xlabs") or die("Cannot connect to database");
-        $name = $_POST['name'];
+    
       //  $query = "delete from users where username = '" . $name . "'";
         
-        $result = (mysql_query($sql));
+        //$result = (mysql_query($sql);
+      //  $available_programmes =$this->Code->query($sql);
 
-        $available_programmes = $result;
-
+        $available_programmes = $this->query($sql);
 
 
         $this->set('available_programmes', $available_programmes);

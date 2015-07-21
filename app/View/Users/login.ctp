@@ -24,7 +24,7 @@
 					<tr class="sign_in_tr">
 						
 							
-							<td class="sign_in_td"><?php 
+							<td colspan="2" class="sign_in_td"><?php 
 		echo $this->Form->input('username', array('label' => 'Username:'));?></td>
 						
 					</tr>
@@ -34,7 +34,7 @@
 					<tr class="sign_in_tr">
 						
 							
-							<td class="sign_in_td"><?php echo $this->Form->input('password', array('label' => 'Password:'));
+							<td colspan="2" class="sign_in_td"><?php echo $this->Form->input('password', array('label' => 'Password:'));
 		?></td>
 						
 					</tr>

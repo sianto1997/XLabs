@@ -89,7 +89,7 @@ p {
 	height: 100px;
 }
 .sellpanelmenu {
-	line-height: 55px;
+	line-height: 54px;
 }
 .sellpanelmenu li {
 	list-style: none;
@@ -99,7 +99,7 @@ p {
 }
 .main-logo {
 	padding-left: 20px;
-	padding-top: 18px;
+	padding-top: 22px;
   	position: relative;
   	width: 180px;
 }
@@ -358,14 +358,15 @@ label {
 	display: block;
 	font-size: 110%;
 	margin-bottom:3px;
+	float: left;
 }
 input, textarea {
-	clear: both;
-	/*font-size: 140%;*/
-	font-family: "frutiger linotype", "lucida grande", "verdana", sans-serif;
-	padding: 5px;
-  	width: 60%;
-  	margin: 0px 60px 10px;
+  padding: 5px;
+  width: 70%;
+  margin: 0px 10px 10px;
+  position: absolute;
+  right: 0px;
+  float:right;
 }
 select {
 	clear: both;
@@ -824,9 +825,9 @@ pre {
 	background-color: #ffffff;
 }
 .sign_in_title {
-	background: url(/xlabs/img/id_logo.png) no-repeat 3px 3px;
-  	padding-left: 33px;
-  	background-size: 25px;
+	background: url(/xlabs/img/id_logo.png) no-repeat 5px 5px;
+	padding-left: 33px;
+	background-size: 20px;
 }
 .menubargeneral {
 
@@ -841,6 +842,7 @@ pre {
 	height: 57px;
   position: absolute;
   right: 0px;
+  left: 250px;
 }
 .stripe {
 	  left: -49px;
@@ -856,10 +858,6 @@ pre {
   width: 100%;
   position: absolute;
   top: 89px;
-}
-.extraspace {
-	width: 500px;
-	float: left;
 }
 .currenttab {
 	  background-color: #fff;
@@ -881,6 +879,7 @@ pre {
   	top: 0px;
 	line-height: 41px;
 	list-style: none;
+	width: 300px
 }
 .accountbarprofilepic {
 	border-radius: 50%;
@@ -890,7 +889,8 @@ pre {
   	border: 1px solid rgb(127,127,127);
   	top: 4.5px;
   	position: relative;
-  	 padding: 3px;
+  	padding: 3px;
+	background-color: #fff;
 }
 .accountbarprofilepic :active {
 	width: 100px;
@@ -900,18 +900,11 @@ pre {
 	 padding: 0px 4px;
 }
 .npic {
-	/*height: 20px;*/
-  	top: 6px;
-  	position: relative;
-  	margin: 0px 8px;
+  	height: 45px;
+	top: 0px;
+	padding: 11.5px 10px;
 }
 
-.npic-on {
-	/*height: 20px;*/
-  	top: 6px;
-  	position: relative;
-  	margin:0px 8px;
-}
 .toparrow {
   position: absolute;
   height: 30px;
@@ -922,17 +915,17 @@ pre {
   background-repeat: no-repeat;
 }
 #accounts  {
-	right: -1px;
+	right: 4px;
 }
 
 #notifications {
-  right: 56px;
+  right: 63px;
 }
 .toparrowinside {
   position: absolute;
   height: 30px;
   width: 32px;
-  top: 1px;
+  top: 3px;
   right: 0px;
   background: linear-gradient(135deg, transparent 15px, #fff 0) top left, 
   linear-gradient(225deg, transparent 15px, #fff 0) top right;
@@ -987,6 +980,24 @@ pre {
 
 	background-color: rgb(231,231,231);
 }
-
+.accountbaritem{
+	position: relative;
+	float: right;
+}
+.accountbaritem:hover {
+	background-color: #e7e7e7; 
+}
+.accountbaritem:active {
+	background-color: rgba(165,165,165, 0.5);
+}
+accountname {
+	  float: left;
+	  padding-right: 10px;
+	  text-transform: capitalize;
+	    line-height: 45px;
+}
+.account-pic {
+	padding:0px 10px;
+}
 
 

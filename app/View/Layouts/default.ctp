@@ -3,7 +3,7 @@
 $title = __d('cake_dev', 'XLabs');
 ?>
 <!DOCTYPE html>
-<html>
+<html onClick="CloseAll()">
 <head>
 	<?php echo $this->Html->charset(); ?>
 	<title>
@@ -24,7 +24,7 @@ echo $this->Html->css('account-test');
 		echo $this->fetch('script');
 	?>
 </head>
-<body>
+<body >
 	<div id="container">
 		<div id="header">
 			<?php  
