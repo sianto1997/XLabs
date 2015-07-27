@@ -22,8 +22,7 @@ echo $this->Html->css('account-test');
 
 
 <div>
-<?php 
-var_dump($available_programmes); ?>
+<?php var_dump($available_programmes); ?>
 </div>
 </body>
 

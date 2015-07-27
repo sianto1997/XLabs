@@ -71,6 +71,7 @@ ul, li {
 	margin: 0 0px;
   	padding: 0px 10px;
   	text-transform: capitalize;
+  	list-style: none;
 }
 p {
 	margin: 0 0 1em 0;
@@ -98,10 +99,9 @@ p {
 	
 }
 .main-logo {
-	padding-left: 20px;
-	padding-top: 22px;
-  	position: relative;
-  	width: 180px;
+	position: relative;
+	padding: 25px;
+	height: 100px;
 }
 .left-colum {
 	width: 30%;
@@ -900,9 +900,9 @@ pre {
 	 padding: 0px 4px;
 }
 .npic {
-  	height: 45px;
-	top: 0px;
-	padding: 11.5px 10px;
+  	  height: 41px;
+  top: 0px;
+  padding: 10px 10px;
 }
 
 .toparrow {
@@ -920,6 +920,12 @@ pre {
 
 #notifications {
   right: 63px;
+}
+#apps {
+  right: 84px;
+}
+#appswindow {
+	width: 200px;
 }
 .toparrowinside {
   position: absolute;
@@ -996,8 +1002,39 @@ accountname {
 	  text-transform: capitalize;
 	    line-height: 45px;
 }
-.account-pic {
+#account-pic {
 	padding:0px 10px;
 }
+.opened {
+	background-color: #e7e7e7; 
+}
+.appsarea {
 
+	float: left;
+	width: 33.33333333333%;
+	padding: 10px;
+/*	margin-right: 10px;*/
+	text-align: center;
+	  opacity: 0.5;
+}
+.appsarea:hover {
+	background-color:#e7e7e7;
+	opacity: 1;
+}
+.appsarea:active {
+	background-color: rgba(165,165,165, 0.5);
+	opacity: 1;
+}
+
+.appsimg {
+	width: 100px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: 10px;
+}
+.appsdisplay {
+	  padding: 0px ;
+}
 
